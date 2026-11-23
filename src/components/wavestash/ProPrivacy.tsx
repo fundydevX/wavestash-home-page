@@ -4,6 +4,7 @@ import {
   Check,
   CloudOff,
   EyeOff,
+  Headphones,
   Highlighter,
   NotebookPen,
   ShieldCheck,
@@ -52,7 +53,7 @@ export function ProPrivacy() {
                   <span className="block italic text-ocean">Yours for good.</span>
                 </h2>
                 <p className="mt-6 max-w-[540px] text-base leading-7 text-ink/60">
-                  WaveStash is free to download. When you want unlimited highlights and notes, Pro is available as a simple one-time purchase—not a subscription.
+                  WaveStash is free to download. When you want unlimited highlights, notes, and listening, Pro is available as a simple one-time purchase—not a subscription.
                 </p>
                 <div className="mt-7 inline-flex items-center gap-2 rounded-full bg-mist px-4 py-2 text-xs font-bold text-ocean-dark">
                   <Check className="h-4 w-4 text-ocean" />
@@ -78,6 +79,15 @@ export function ProPrivacy() {
                   <div>
                     <p className="font-display text-xl font-semibold text-ink">Unlimited notes</p>
                     <p className="mt-0.5 text-xs text-ink/50">Make room for every thought.</p>
+                  </div>
+                </div>
+                <div className="mt-5 flex items-center gap-4">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-mist text-ocean">
+                    <Headphones className="h-5 w-5" />
+                  </span>
+                  <div>
+                    <p className="font-display text-xl font-semibold text-ink">Unlimited listening</p>
+                    <p className="mt-0.5 text-xs text-ink/50">Listen to supported reading content without limits.</p>
                   </div>
                 </div>
                 <GooglePlayButton className="mt-8 w-full justify-center" label="Download WaveStash free" />

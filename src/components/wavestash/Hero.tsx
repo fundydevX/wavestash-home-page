@@ -94,7 +94,7 @@ export function Hero() {
           </h1>
 
           <p className="hero-enter hero-enter-delay-2 mt-7 max-w-[535px] text-base leading-7 text-ink/70 sm:text-lg sm:leading-8">
-            Save the articles, guides, and web pages you want to read. WaveStash keeps them in a clean personal library, ready whenever you are—even without an internet connection.
+            Save the articles and web pages you want to read. WaveStash keeps them in a clean personal library, ready whenever you are—even without an internet connection.
           </p>
 
           <div className="hero-enter hero-enter-delay-2 mt-8 flex flex-col items-start gap-3 sm:flex-row sm:items-center">
