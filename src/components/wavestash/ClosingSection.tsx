@@ -17,7 +17,7 @@ export function ClosingSection() {
           <path d="M-90 348c190-160 331 105 522-31s312-73 480 28 334-29 576-140" stroke="currentColor" strokeWidth="1.2" />
         </svg>
         <div className="site-container relative text-center">
-          <img src="/images/wavestash-icon.png" alt="" className="mx-auto h-16 w-16 rounded-[20px] shadow-lift" />
+          <img src="images/wavestash-icon.png" alt="" className="mx-auto h-16 w-16 rounded-[20px] shadow-lift" />
           <p className="eyebrow mt-7 text-[#73e0d3]">Your next good read is out there</p>
           <h2 className="mx-auto mt-4 max-w-[800px] font-display text-5xl font-medium leading-[0.98] tracking-[-0.04em] sm:text-6xl lg:text-7xl">
             Save it now. Read it
@@ -39,7 +39,7 @@ export function ClosingSection() {
         <div className="site-container border-t border-white/15 py-9">
           <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
             <a href="#top" className="flex w-fit items-center gap-3 rounded-xl">
-              <img src="/images/wavestash-icon.png" alt="" className="h-10 w-10 rounded-xl" />
+              <img src="images/wavestash-icon.png" alt="" className="h-10 w-10 rounded-xl" />
               <div>
                 <p className="font-display text-2xl font-semibold tracking-tight">WaveStash</p>
                 <p className="text-[10px] text-white/50">Your private read-it-later library.</p>
