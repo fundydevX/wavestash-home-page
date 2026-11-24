@@ -121,7 +121,7 @@ export function LibraryShowcase() {
                     {articles.length} saved · ready offline
                   </p>
                 </div>
-                <img src="/images/wavestash-icon.png" alt="" className="h-11 w-11 rounded-[14px]" />
+                <img src="images/wavestash-icon.png" alt="" className="h-11 w-11 rounded-[14px]" />
               </div>
               <div className="relative mt-5">
                 <Search className="absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-ink/35" />
