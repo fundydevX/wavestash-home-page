@@ -7,6 +7,7 @@ import {
   Headphones,
   Highlighter,
   NotebookPen,
+  Palette,
   ShieldCheck,
   UserRoundX,
   Wifi,
@@ -88,6 +89,15 @@ export function ProPrivacy() {
                   <div>
                     <p className="font-display text-xl font-semibold text-ink">Unlimited listening</p>
                     <p className="mt-0.5 text-xs text-ink/50">Listen to supported reading content without limits.</p>
+                  </div>
+                </div>
+                <div className="mt-5 flex items-center gap-4">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-mist text-ocean">
+                    <Palette className="h-5 w-5" />
+                  </span>
+                  <div>
+                    <p className="font-display text-xl font-semibold text-ink">16 premium color themes</p>
+                    <p className="mt-0.5 text-xs text-ink/50">Personalize your reading experience.</p>
                   </div>
                 </div>
                 <GooglePlayButton className="mt-8 w-full justify-center" label="Download WaveStash free" />
