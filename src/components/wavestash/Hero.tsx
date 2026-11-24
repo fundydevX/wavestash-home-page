@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { GooglePlayButton } from "./GooglePlayButton";
+import { WaveStashLibraryScreen } from "./WaveStashLibraryScreen";
 
 function BrowserArticle() {
   return (
@@ -48,11 +49,9 @@ function PhoneMockup() {
   return (
     <div className="absolute left-1/2 top-0 z-20 -translate-x-1/2 sm:left-auto sm:right-[2%] sm:translate-x-0">
       <div className="rounded-[43px] border-[7px] border-[#082c43] bg-[#082c43] p-[3px] shadow-phone">
-        <img
-          src="/images/wavestash-library.jpeg"
-          alt="WaveStash Android library showing saved books, search, reading filters, and offline status"
-          className="block h-auto w-[238px] rounded-[31px] sm:w-[264px] xl:w-[278px]"
-        />
+        <div className="w-[238px] sm:w-[264px] xl:w-[278px]">
+          <WaveStashLibraryScreen />
+        </div>
       </div>
       <div className="absolute -right-1 bottom-[88px] flex items-center gap-2 rounded-2xl border border-ocean/10 bg-white px-3.5 py-3 text-[11px] font-bold text-ocean-dark shadow-lift sm:-right-4">
         <span className="flex h-7 w-7 items-center justify-center rounded-full bg-mist text-ocean">
