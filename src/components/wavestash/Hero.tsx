@@ -37,7 +37,7 @@ function BrowserArticle() {
         </p>
       </div>
       <div className="absolute -bottom-5 right-3 flex items-center gap-2 rounded-xl bg-ocean-dark px-3 py-2.5 text-[10px] font-semibold text-white shadow-lift">
-        <img src="/images/wavestash-icon.png" alt="" className="h-6 w-6 rounded-md" />
+        <img src="images/wavestash-icon.png" alt="" className="h-6 w-6 rounded-md" />
         Saved to WaveStash
         <Check className="h-3.5 w-3.5 text-[#73e0d3]" />
       </div>
