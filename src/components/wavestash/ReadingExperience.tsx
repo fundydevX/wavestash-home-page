@@ -86,7 +86,7 @@ export function ReadingExperience() {
           <div className={cn("reader-preview overflow-hidden rounded-[28px] shadow-phone", modeStyles[mode])}>
             <div className="flex items-center justify-between border-b border-current/10 px-5 py-4 sm:px-7">
               <div className="flex items-center gap-2.5">
-                <img src="/images/wavestash-icon.png" alt="" className="h-8 w-8 rounded-[10px]" />
+                <img src="images/wavestash-icon.png" alt="" className="h-8 w-8 rounded-[10px]" />
                 <span className="text-xs font-bold">Reading view</span>
               </div>
               <div className="flex items-center gap-2">
