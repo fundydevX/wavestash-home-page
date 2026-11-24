@@ -44,7 +44,7 @@ function ShareVisual() {
           <Share2 className="h-4 w-4 text-ink/45" />
         </div>
         <div className="mt-4 flex items-center gap-3 rounded-2xl bg-mist p-3 ring-2 ring-ocean/20">
-          <img src="/images/wavestash-icon.png" alt="" className="h-10 w-10 rounded-xl" />
+          <img src="images/wavestash-icon.png" alt="" className="h-10 w-10 rounded-xl" />
           <div className="flex-1">
             <p className="text-xs font-bold text-ink">WaveStash</p>
             <p className="mt-0.5 text-[10px] text-ink/50">Save for offline reading</p>
