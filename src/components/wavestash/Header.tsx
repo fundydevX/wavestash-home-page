@@ -24,7 +24,7 @@ export function Header() {
           onClick={() => setMenuOpen(false)}
         >
           <img
-            src="/images/wavestash-icon.png"
+            src="images/wavestash-icon.png"
             alt=""
             className="h-11 w-11 rounded-[13px] shadow-sm"
           />
